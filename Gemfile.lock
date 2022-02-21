@@ -193,6 +193,8 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
+    tzinfo-data (1.2021.5)
+      tzinfo (>= 1.0.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -210,7 +212,6 @@ GEM
     zeitwerk (2.5.4)
 
 PLATFORMS
-  mingw
   x64-mingw-ucrt
 
 DEPENDENCIES
@@ -226,6 +227,7 @@ DEPENDENCIES
   sqlite3 (~> 1.4)
   stimulus-rails
   turbo-rails
+  tzinfo
   tzinfo-data
   web-console
   webdrivers
